@@ -1,5 +1,6 @@
 .plage-bg {
     background-image: url("../images/PLAGE.PNG");
+    background-size: cover;
 }
 
 .blanc {
@@ -7,4 +8,14 @@
 }
 .extra-space {
     margin-top: 40px;
+}
+
+.form-check-input:checked {
+    background-color: #6c757d; /* gris Bootstrap */
+    border-color: #6c757d;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+    outline: none;
 }
