@@ -92,6 +92,16 @@ const depart = document.getElementById('depart');
 
 const travail = document.getElementById('travail');
 
+// Vérification âge pas vide
+
+for (let i = 1; i <= enfants.value; i++) {
+    const ageInput = document.getElementById(`age-enfant-${i}`);
+    if (!ageInput || ageInput.value === "") {
+        alert(`Veuillez renseigner l'âge de l'enfant n°${i}.`);
+        return;
+    }
+}
+
 // Verification de la date d'arrivée et de départ
 
 
